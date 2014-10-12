@@ -1,0 +1,35 @@
+
+<div class="list">
+  <div class="item item-divider">
+    Stores
+  </div>
+  <ion-list>
+    <ion-item ng-repeat="item in storeVisitList"  class="item">
+      <div ng-click="selectStore()">
+        {{item.storeName}}
+      </div>
+      <span>
+          {{item.address}}
+      </span>
+      <span>
+        {{item.scheduleDate}}
+      </span> 
+    </ion-item>
+  </ion-list>
+<div class="item item-divider">
+    Completed Stores
+</div>
+  <ion-list>
+    <ion-item ng-repeat="item in storeCompleteList"  class="item">
+      <span>
+        {{item.storeName}}
+      </span>
+      <span>
+          {{item.address}}
+      </span>
+      <span>
+        {{item.scheduleDate}}
+      </span> 
+    </ion-item>
+  </ion-list>
+</div>

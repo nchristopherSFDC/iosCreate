@@ -1,0 +1,110 @@
+2014-10-12 18:36:40.436 sony[7473:95777] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-12 18:36:40.437 sony[7473:95777] Multi-tasking -> Device: YES, App: YES
+2014-10-12 18:36:40.458 sony[7473:95777] Unlimited access to network resources
+2014-10-12 18:36:40:471 sony[7473:70b] ERROR|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' could not be read: Error Domain=NSCocoaErrorDomain Code=260 "The operation couldn’t be completed. (Cocoa error 260.)" UserInfo=0x7a8f1680 {NSFilePath=/Users/deepshikhamittal/Library/Developer/CoreSimulator/Devices/D3FF98E0-6C7E-4B3F-A1AD-4263B431C32C/data/Containers/Bundle/Application/FC4313A0-B2A0-4CD9-9161-6DD02D3DDF45/sony.app/www/bootconfig.json, NSUnderlyingError=0x7a8ebb70 "The operation couldn’t be completed. No such file or directory"}
+2014-10-12 18:36:40:472 sony[7473:70b] WARN|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' not found, or data could not be parsed.
+2014-10-12 18:36:40.472 sony[7473:95777] *** Assertion failure in -[SFHybridViewController initWithConfig:], /Users/khawkins/git/SalesforceMobileSDK-iOS/hybrid/SalesforceHybridSDK/SalesforceHybridSDK/Classes/SFHybridViewController.m:164
+2014-10-12 18:36:40.508 sony[7473:95777] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '_hybridViewConfig was not properly initialized.  See output log for errors.'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00642df6 __exceptionPreprocess + 182
+	1   libobjc.A.dylib                     0x031c4a97 objc_exception_throw + 44
+	2   CoreFoundation                      0x00642c8a +[NSException raise:format:arguments:] + 138
+	3   Foundation                          0x02933460 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 118
+	4   sony                                0x0007d734 -[SFHybridViewController initWithConfig:] + 468
+	5   sony                                0x0007d525 -[SFHybridViewController init] + 69
+	6   sony                                0x0003caa9 -[AppDelegate(SalesforceHybridSDK) initializeAppViewState] + 281
+	7   sony                                0x0003be93 -[AppDelegate(SalesforceHybridSDK) sfsdk_swizzled_application:didFinishLaunchingWithOptions:] + 627
+	8   UIKit                               0x009ededc -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 291
+	9   UIKit                               0x009eebe7 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 2869
+	10  UIKit                               0x009f216d -[UIApplication _runWithMainScene:transitionContext:completion:] + 1639
+	11  UIKit                               0x00a0ad30 __84-[UIApplication _handleApplicationActivationWithScene:transitionContext:completion:]_block_invoke + 59
+	12  UIKit                               0x009f0d7f -[UIApplication workspaceDidEndTransaction:] + 155
+	13  FrontBoardServices                  0x03d349de __37-[FBSWorkspace clientEndTransaction:]_block_invoke_2 + 71
+	14  FrontBoardServices                  0x03d3446f __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 54
+	15  FrontBoardServices                  0x03d46425 __31-[FBSSerialQueue performAsync:]_block_invoke + 26
+	16  CoreFoundation                      0x005667a0 __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 16
+	17  CoreFoundation                      0x0055c0b3 __CFRunLoopDoBlocks + 195
+	18  CoreFoundation                      0x0055bf0b __CFRunLoopRun + 2715
+	19  CoreFoundation                      0x0055b1ab CFRunLoopRunSpecific + 443
+	20  CoreFoundation                      0x0055afdb CFRunLoopRunInMode + 123
+	21  UIKit                               0x009f0744 -[UIApplication _run] + 571
+	22  UIKit                               0x009f3e16 UIApplicationMain + 1526
+	23  sony                                0x00037aac main + 92
+	24  libdyld.dylib                       0x03885ac9 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+2014-10-12 19:34:38.820 sony[8904:121768] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/deepshikhamittal/Library/Developer/CoreSimulator/Devices/D3FF98E0-6C7E-4B3F-A1AD-4263B431C32C/data/Containers/Data/Application/8945B99F-C5FF-46EB-89D8-9F7E7BB9285A/Library/Cookies/Cookies.binarycookies
+2014-10-12 19:34:38.916 sony[8904:121768] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-12 19:34:38.916 sony[8904:121768] Multi-tasking -> Device: YES, App: YES
+2014-10-12 19:34:38.918 sony[8904:121768] Unlimited access to network resources
+2014-10-12 19:34:38:938 sony[8904:70b] ERROR|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' could not be read: Error Domain=NSCocoaErrorDomain Code=260 "The operation couldn’t be completed. (Cocoa error 260.)" UserInfo=0x7c9994e0 {NSFilePath=/Users/deepshikhamittal/Library/Developer/CoreSimulator/Devices/D3FF98E0-6C7E-4B3F-A1AD-4263B431C32C/data/Containers/Bundle/Application/4EE259DD-5F87-4193-8549-EA1ADA7A4CA0/sony.app/www/bootconfig.json, NSUnderlyingError=0x7c996350 "The operation couldn’t be completed. No such file or directory"}
+2014-10-12 19:34:38:938 sony[8904:70b] WARN|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' not found, or data could not be parsed.
+2014-10-12 19:34:38.938 sony[8904:121768] *** Assertion failure in -[SFHybridViewController initWithConfig:], /Users/khawkins/git/SalesforceMobileSDK-iOS/hybrid/SalesforceHybridSDK/SalesforceHybridSDK/Classes/SFHybridViewController.m:164
+2014-10-12 19:34:38.945 sony[8904:121768] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '_hybridViewConfig was not properly initialized.  See output log for errors.'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x0062fdf6 __exceptionPreprocess + 182
+	1   libobjc.A.dylib                     0x031b1a97 objc_exception_throw + 44
+	2   CoreFoundation                      0x0062fc8a +[NSException raise:format:arguments:] + 138
+	3   Foundation                          0x02920460 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 118
+	4   sony                                0x0006a734 -[SFHybridViewController initWithConfig:] + 468
+	5   sony                                0x0006a525 -[SFHybridViewController init] + 69
+	6   sony                                0x00029aa9 -[AppDelegate(SalesforceHybridSDK) initializeAppViewState] + 281
+	7   sony                                0x00028e93 -[AppDelegate(SalesforceHybridSDK) sfsdk_swizzled_application:didFinishLaunchingWithOptions:] + 627
+	8   UIKit                               0x009daedc -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 291
+	9   UIKit                               0x009dbbe7 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 2869
+	10  UIKit                               0x009df16d -[UIApplication _runWithMainScene:transitionContext:completion:] + 1639
+	11  UIKit                               0x009f7d30 __84-[UIApplication _handleApplicationActivationWithScene:transitionContext:completion:]_block_invoke + 59
+	12  UIKit                               0x009ddd7f -[UIApplication workspaceDidEndTransaction:] + 155
+	13  FrontBoardServices                  0x03d219de __37-[FBSWorkspace clientEndTransaction:]_block_invoke_2 + 71
+	14  FrontBoardServices                  0x03d2146f __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 54
+	15  FrontBoardServices                  0x03d33425 __31-[FBSSerialQueue performAsync:]_block_invoke + 26
+	16  CoreFoundation                      0x005537a0 __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 16
+	17  CoreFoundation                      0x005490b3 __CFRunLoopDoBlocks + 195
+	18  CoreFoundation                      0x00548f0b __CFRunLoopRun + 2715
+	19  CoreFoundation                      0x005481ab CFRunLoopRunSpecific + 443
+	20  CoreFoundation                      0x00547fdb CFRunLoopRunInMode + 123
+	21  UIKit                               0x009dd744 -[UIApplication _run] + 571
+	22  UIKit                               0x009e0e16 UIApplicationMain + 1526
+	23  sony                                0x00024aac main + 92
+	24  libdyld.dylib                       0x03872ac9 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+2014-10-12 20:50:03.894 sony[10137:149743] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/deepshikhamittal/Library/Developer/CoreSimulator/Devices/D3FF98E0-6C7E-4B3F-A1AD-4263B431C32C/data/Containers/Data/Application/92C793F0-1749-4048-B236-55BFA23A2548/Library/Cookies/Cookies.binarycookies
+2014-10-12 20:50:03.939 sony[10137:149743] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-12 20:50:03.939 sony[10137:149743] Multi-tasking -> Device: YES, App: YES
+2014-10-12 20:50:03.957 sony[10137:149743] Unlimited access to network resources
+2014-10-12 20:50:03:968 sony[10137:70b] ERROR|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' could not be read: Error Domain=NSCocoaErrorDomain Code=260 "The operation couldn’t be completed. (Cocoa error 260.)" UserInfo=0x7976b4e0 {NSFilePath=/Users/deepshikhamittal/Library/Developer/CoreSimulator/Devices/D3FF98E0-6C7E-4B3F-A1AD-4263B431C32C/data/Containers/Bundle/Application/45A4F380-19BC-400C-8007-A0549919FF28/sony.app/www/bootconfig.json, NSUnderlyingError=0x79771930 "The operation couldn’t be completed. No such file or directory"}
+2014-10-12 20:50:03:968 sony[10137:70b] WARN|SFHybridViewConfig|Hybrid view config at specified path '/www/bootconfig.json' not found, or data could not be parsed.
+2014-10-12 20:50:03.968 sony[10137:149743] *** Assertion failure in -[SFHybridViewController initWithConfig:], /Users/khawkins/git/SalesforceMobileSDK-iOS/hybrid/SalesforceHybridSDK/SalesforceHybridSDK/Classes/SFHybridViewController.m:164
+2014-10-12 20:50:04.008 sony[10137:149743] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '_hybridViewConfig was not properly initialized.  See output log for errors.'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00692df6 __exceptionPreprocess + 182
+	1   libobjc.A.dylib                     0x03214a97 objc_exception_throw + 44
+	2   CoreFoundation                      0x00692c8a +[NSException raise:format:arguments:] + 138
+	3   Foundation                          0x02983460 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 118
+	4   sony                                0x000cd734 -[SFHybridViewController initWithConfig:] + 468
+	5   sony                                0x000cd525 -[SFHybridViewController init] + 69
+	6   sony                                0x0008caa9 -[AppDelegate(SalesforceHybridSDK) initializeAppViewState] + 281
+	7   sony                                0x0008be93 -[AppDelegate(SalesforceHybridSDK) sfsdk_swizzled_application:didFinishLaunchingWithOptions:] + 627
+	8   UIKit                               0x00a3dedc -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 291
+	9   UIKit                               0x00a3ebe7 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 2869
+	10  UIKit                               0x00a4216d -[UIApplication _runWithMainScene:transitionContext:completion:] + 1639
+	11  UIKit                               0x00a5ad30 __84-[UIApplication _handleApplicationActivationWithScene:transitionContext:completion:]_block_invoke + 59
+	12  UIKit                               0x00a40d7f -[UIApplication workspaceDidEndTransaction:] + 155
+	13  FrontBoardServices                  0x03d849de __37-[FBSWorkspace clientEndTransaction:]_block_invoke_2 + 71
+	14  FrontBoardServices                  0x03d8446f __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 54
+	15  FrontBoardServices                  0x03d96425 __31-[FBSSerialQueue performAsync:]_block_invoke + 26
+	16  CoreFoundation                      0x005b67a0 __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 16
+	17  CoreFoundation                      0x005ac0b3 __CFRunLoopDoBlocks + 195
+	18  CoreFoundation                      0x005abf0b __CFRunLoopRun + 2715
+	19  CoreFoundation                      0x005ab1ab CFRunLoopRunSpecific + 443
+	20  CoreFoundation                      0x005aafdb CFRunLoopRunInMode + 123
+	21  UIKit                               0x00a40744 -[UIApplication _run] + 571
+	22  UIKit                               0x00a43e16 UIApplicationMain + 1526
+	23  sony                                0x00087aac main + 92
+	24  libdyld.dylib                       0x038d5ac9 start + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
